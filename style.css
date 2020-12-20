@@ -146,6 +146,27 @@ a.active,a:hover{
     transition:  .2s;
  }
 
+ .gallery-image-desc{
+    visibility: hidden;
+    opacity: 0;
+    color: rgb(255, 255, 255);
+    left: 70%;
+    right: 0;
+    Top: 75%;
+    position:absolute; 
+    transition:  .2s;
+
+ }
+
+ .image-gallery:hover img{
+     opacity: 80%;
+ }
+
+ .image-gallery:hover .gallery-image-desc{
+    visibility: visible;
+     opacity: 100%;
+ }
+
  .gallery-title{
      margin-top: 10px;
      text-align: center;
@@ -229,6 +250,13 @@ a.active,a:hover{
     .image-gallery{
         width: 100%;
     }
-
+    .image-desc{
+        visibility: visible;
+        opacity: 100%;
+    }
+    .gallery-image-desc{
+        visibility: visible;
+        opacity: 100%;
+    }
 
 }
