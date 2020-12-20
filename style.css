@@ -257,6 +257,14 @@ a.active,a:hover{
     .gallery-image-desc{
         visibility: visible;
         opacity: 100%;
+        font-size: 12px;
+    }
+
+}
+
+@media(max-width:500px){
+    .gallery-image-desc{
+        font-size: 9px;
     }
 
 }
