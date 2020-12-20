@@ -159,12 +159,12 @@ a.active,a:hover{
  }
 
  .image-gallery:hover img{
-     opacity: 80%;
+    opacity: 80%;
  }
 
  .image-gallery:hover .gallery-image-desc{
     visibility: visible;
-     opacity: 100%;
+    opacity: 100%;
  }
 
  .gallery-title{
