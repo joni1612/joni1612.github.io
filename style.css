@@ -185,6 +185,9 @@ a.active,a:hover{
     .content{
         font-size: 10px;
     }
+     .gallery-image-desc{
+        font-size: 12px;
+    }
 }
 
 @media(max-width:858px){
